@@ -259,11 +259,11 @@ public class Agenda {
                      int resultRowCount = ps.executeUpdate();
                         if(resultRowCount > 0) 
                         {
-                         System.out.println("La tarea se borro correctamente -> " + resultRowCount);
+                         System.out.println("El Contacto se borro correctamente -> " + resultRowCount);
                         }
                         else    
                         {
-                         System.out.println("La tarea NO se borro o no se encuentra en los registros");
+                         System.out.println("El Contacto NO se borro o no se encuentra en los registros");
                         }
                          mt.con.close();
                     } 
@@ -294,9 +294,9 @@ public class Agenda {
             int resultRowCount = ps.executeUpdate();
            
             if(resultRowCount > 0) {
-               System.out.println("La tarea se modifico correctamente -> " + resultRowCount);
+               System.out.println("El contacto se modifico correctamente -> " + resultRowCount);
             }else{
-               System.out.println("La tarea NO se modifico");
+               System.out.println("El contacto NO se modifico");
             }
             
             mt.con.close();   
